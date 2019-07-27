@@ -1,0 +1,209 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+body{
+    background-color: aquamarine;
+
+    margin:0px;
+    background-image: url("image1.jpg"),url("image2.jpg");
+    background-size:100% 800px,100% 800px;
+    background-repeat: no-repeat,repeat;
+
+}
+
+
+
+h1{
+    box-shadow: 10px 10px 80px 10px rgb(0, 0, 0);
+font-family: verdana; 
+font-size: 100px;
+border:0px;
+background-image: linear-gradient(to left,rgba(255, 255, 255, 0.856),rgba(53, 203, 223, 0.842));
+padding: 0px;
+position: absolute;
+top : 300px;
+left: 0px;
+right: 0px;
+width: 1519px;
+
+  
+
+}
+
+#n{  align-items: center;
+    padding:0px 100px 0px 0px;
+    color:rgb(43, 201, 201);
+    outline: none;
+}
+
+
+
+h1:hover{
+    box-shadow: 10px 10px 50px 5px rgb(0, 0, 0);
+    font-size: 101px;
+    transition-delay: 10ms;
+    transition-duration: 50ms;
+    
+}
+
+h2{  font-family: 'segoe UI';
+    font-size: 10px;
+    position: absolute;
+    top : 1528px;
+    right:0px;
+    width: 150px;
+
+}
+
+
+
+#form1{
+    
+    font-family: tahoma;
+    font-size:30px;
+    position: absolute;
+    top : 1000px;
+    left:0px;
+    width: 500px;
+    
+    
+
+}
+#form1:hover{
+    box-shadow: 10px 10px 100px 10px rgb(0, 0, 0);
+    top:1527;
+    left:1px;
+    transition-delay: 10ms;
+    transition-duration: 100ms;
+}
+
+
+#form2{
+    font-family: tahoma;
+    font-size:30px;
+    position: absolute;
+    top : 1080px;
+    right:0px;
+    width: 500px;
+    
+    
+
+}
+#form2:hover{
+    box-shadow: 10px 10px 100px 10px rgb(0, 0, 0);
+    top:1080px;
+    right:1px;
+    transition-delay: 10ms;
+    transition-duration: 100ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+p{
+    display:inline-block;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+input,select{
+    border-radius: 5px;
+    margin: 3px;
+    padding: 3px;
+    border:0px;
+    outline:none;
+}
+
+
+#button{
+
+    font-family: tahoma;
+    font-size:30px;
+    position: absolute;
+    top : 1400px;
+    left:700px;
+    width: 130px;
+}
+
+
+#button:hover{
+
+    font-family: tahoma;
+    font-size:30px;
+    position: absolute;
+    top : 1400px;
+    left:670px;
+    width: 190px;
+    box-shadow: 10px 10px 100px 10px red;
+    transition-delay: 10ms;
+    transition-duration: 100ms;
+    border-radius: 30px;
+}
+
+
+
+ls{
+    list-style-type: none;
+    
+    position: absolute;
+    right:0px;
+    padding:0px;
+    margin:0px;
+    border:0px;
+
+    display:inline-block;
+}
+
+li{  
+    font-size: 20px;
+   
+    font-family: tahoma;
+    
+    display:inline-block;
+     color: white;
+    
+    border:0px;
+    padding:6px 10px 5px 20px; 
+    margin:0px;
+    transition-duration: 1000ms;
+}
+
+li:hover{  
+    font-family: tahoma;
+    display:inline-block;
+
+    background-color: rgb(0, 0, 0);
+    border:0px;
+    padding:6px 20px 15px 20px; 
+    margin:0px;
+    transition-duration: 100ms;
+    transition-delay: 10ms;
+    color:green;
+    border-radius: 0px 0px 0px 0px;
+
+    box-shadow: 0px 0px 5px .1px rgb(0, 0, 0);
+}
+
+
+#titt{
+    opacity: 0.6;
+    width: 1500px;
+    position: absolute;
+    right:0px;
+    padding:10px;
+
+    background-color: black;
+}
+
